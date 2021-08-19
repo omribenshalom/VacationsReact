@@ -1,0 +1,11 @@
+.footer-container{
+    margin: 0px;
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #facaa1;
+    padding: 10px 40px;
+    font-family: 'Montserrat', sans-serif;
+}

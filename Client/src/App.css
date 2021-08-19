@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 8vh 86vh 6vh;
+}
+
+.main {
+  background-color: #0d0f13;
+  padding: 20px;
+  grid-row: 2;
+  grid-column: span 12;
+  display: flex;
+  justify-content: space-around;
+};

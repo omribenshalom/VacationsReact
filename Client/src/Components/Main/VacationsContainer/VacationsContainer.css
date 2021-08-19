@@ -1,0 +1,12 @@
+.vacations-container{
+    overflow-y: scroll;
+    height: 100%;
+    grid-column: span 12;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4%;
+    gap: 2%;
+    justify-content: center;
+}

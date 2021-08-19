@@ -1,0 +1,15 @@
+.container{
+    width: 70%;
+    height: 70%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -6px -3px 15px rgb(250, 65, 157);
+}
+
+h2 {
+    color: #facaa1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6vw;
+}

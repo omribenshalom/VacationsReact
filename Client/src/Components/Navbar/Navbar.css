@@ -1,0 +1,32 @@
+.navbar-container{
+    margin: 0px;
+    grid-row: 1;
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #facaa1;
+    padding: 2vh 2vh;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1.5vw;
+}
+
+.navlink{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}

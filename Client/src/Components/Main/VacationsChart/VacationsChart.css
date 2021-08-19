@@ -1,0 +1,18 @@
+.chart-container{
+    padding: 30px;
+    height: 95%;
+    min-width: 600px;
+    width: 60%;
+    max-width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    box-shadow: -6px -3px 15px rgb(250, 65, 157);
+}
+
+.chart{
+    padding: 20px;
+}

@@ -1,0 +1,38 @@
+.add-vacation-form-container {
+    width: 16%;
+    min-width: 250px;
+    padding: 50px;
+    position: absolute;
+    left: 42%;
+    top: 20%;
+    background: #0d0f13;
+    box-shadow: -15px -8px 50px rgb(250, 65, 157);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+h5 {
+    color: #46c8e6;
+}
+
+input,
+.button {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#addVacationForm span {
+    margin-left: 10px;
+    color: #46c8e6;
+    font-size: 10px;
+    font-style: italic;
+}
